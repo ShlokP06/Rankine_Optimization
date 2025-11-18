@@ -1,0 +1,45 @@
+================================================================================
+PARAMETER SENSITIVITY ANALYSIS SUMMARY
+================================================================================
+
+1. TOP 5 MOST SENSITIVE PARAMETERS:
+--------------------------------------------------------------------------------
+   1. T                    Mean |SHAP|: 0.241671
+   2. Vc                   Mean |SHAP|: 0.115007
+   3. Rings                Mean |SHAP|: 0.104047
+   4. Refractivity         Mean |SHAP|: 0.090872
+   5. HBA                  Mean |SHAP|: 0.061073
+
+2. BOTTOM 5 LEAST SENSITIVE PARAMETERS:
+--------------------------------------------------------------------------------
+   13. Pc                   Mean |SHAP|: 0.024121
+   14. LogP                 Mean |SHAP|: 0.024029
+   15. TPSA                 Mean |SHAP|: 0.017709
+   16. HBD                  Mean |SHAP|: 0.017516
+   17. P                    Mean |SHAP|: 0.015281
+
+3. SENSITIVITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+   T                     22.86% (Cumulative:  22.86%)
+   Vc                    10.88% (Cumulative:  33.74%)
+   Rings                  9.84% (Cumulative:  43.58%)
+   Refractivity           8.60% (Cumulative:  52.17%)
+   HBA                    5.78% (Cumulative:  57.95%)
+   NumAtoms               5.38% (Cumulative:  63.33%)
+   MolWt2                 5.28% (Cumulative:  68.61%)
+   RotBonds               5.09% (Cumulative:  73.70%)
+   NumHeavyAtoms          5.08% (Cumulative:  78.78%)
+   MW                     4.71% (Cumulative:  83.48%)
+   NumHeteroatoms         4.48% (Cumulative:  87.96%)
+   Tc                     2.71% (Cumulative:  90.67%)
+   Pc                     2.28% (Cumulative:  92.95%)
+   LogP                   2.27% (Cumulative:  95.22%)
+   TPSA                   1.68% (Cumulative:  96.90%)
+   HBD                    1.66% (Cumulative:  98.55%)
+   P                      1.45% (Cumulative: 100.00%)
+
+4. KEY INSIGHTS:
+--------------------------------------------------------------------------------
+   • Top 5 features account for 57.95% of total importance
+   • Top 10 features account for 83.48% of total importance
+================================================================================
