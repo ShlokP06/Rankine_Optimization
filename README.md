@@ -139,7 +139,7 @@ shap_summary = analyze_model(
 The loss function embeds Maxwell relations to ensure thermodynamic consistency:
 
 $$
-\mathcal{L} = \text{MSE}(V_m) + \lambda \left\| \frac{\partial V_m}{\partial T} + \frac{\partial S}{\partial P} \right\|^2
+\mathcal{L} = \text{MSE}(V_m) + \lambda \left\| \frac{\partial V_m}{\partial T} |^2
 $$
 
 This ensures:
