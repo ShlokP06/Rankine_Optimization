@@ -80,8 +80,8 @@ Or, you can access the complete folder here: [Download](https://drive.google.com
 ### Installation
 
 ```bash
-git clone https://github.com/ShlokP06/Rankine-Optimization.git
-cd rankine-cycle-nn
+git clone https://github.com/ShlokP06/Rankine_Optimization.git
+cd Rankine_Optimization
 ```
 
 ### Requirements
@@ -138,9 +138,9 @@ shap_summary = analyze_model(
 
 The loss function embeds Maxwell relations to ensure thermodynamic consistency:
 
-\[
+$$
 \mathcal{L} = \text{MSE}(V_m) + \lambda \left\| \frac{\partial V_m}{\partial T} + \frac{\partial S}{\partial P} \right\|^2
-\]
+$$
 
 This ensures:
 - Predictions satisfy fundamental thermodynamic laws
